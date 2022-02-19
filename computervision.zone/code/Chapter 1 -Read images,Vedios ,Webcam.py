@@ -6,12 +6,12 @@ from sklearn.preprocessing import KernelCenterer
 
 ##Read Images,Video & Webcam
 #for image
-"""
-img = cv2.imread("S://study/course/computervision.zone/lena.png")
+
+img = cv2.imread("computervision.zone/lena.png")
 
 cv2.imshow("Output",img)
 cv2.waitKey(0)
-"""
+
 #for vedio
 """
 frameWidth = 640
