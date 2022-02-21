@@ -6,12 +6,12 @@ from sklearn.preprocessing import KernelCenterer
 
 ##Read Images,Video & Webcam
 #for image
-
-img = cv2.imread("computervision.zone/lena.png")
+"""
+img = cv2.imread("S://study/course/computervision.zone/lena.png")
 
 cv2.imshow("Output",img)
 cv2.waitKey(0)
-
+"""
 #for vedio
 """
 frameWidth = 640
@@ -25,7 +25,7 @@ while True:
         break"""
 
 #for web cam
-"""
+
 frameWidth = 640
 frameHeight = 480
 cap = cv2.VideoCapture(0)
@@ -37,5 +37,5 @@ while True:
     cv2.imshow("Result", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-"""
+
 
